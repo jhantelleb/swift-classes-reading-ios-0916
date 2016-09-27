@@ -50,14 +50,14 @@ class Planet {
     var numberOfMoons: Int
     var orbitalPeriod: Double
     var hasLife: Bool
-
+    
     init(name: String, numberOfMoons: Int, orbitalPeriod: Double, hasLife: Bool) {
         self.name = name
         self.numberOfMoons = numberOfMoons
         self.orbitalPeriod = orbitalPeriod
         self.hasLife = hasLife
     }
-
+    
     func planetInfo() {
         var moonNoun = "moon"
         if self.numberOfMoons != 1 {
